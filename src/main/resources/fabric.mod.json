@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "illiteracymod",
+  "version": "${version}",
+  "name": "Illiteracymod",
+  "description": "",
+  "authors": ["wffirilat"],
+  "contact": {},
+  "license": "SCAMSL v1.0",
+  "icon": "assets/illiteracymod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      {
+        "adapter": "kotlin",
+        "value": "org.siscode.illiteracymod.client.IlliteracyModClient"
+      }
+    ],
+    "main": [
+      {
+        "adapter": "kotlin",
+        "value": "org.siscode.illiteracymod.IlliteracyMod"
+      }
+    ]
+  },
+  "mixins": [
+    "illiteracymod.mixins.json"
+  ],
+  "accessWidener" : "illiteracymod.accesswidener",
+  "depends": {
+    "fabricloader": ">=0.12.2",
+    "fabric": "*",
+    "minecraft": "1.17.1",
+    "fabric-language-kotlin": ">=1.6.5+kotlin.1.5.31"
+  }
+}
