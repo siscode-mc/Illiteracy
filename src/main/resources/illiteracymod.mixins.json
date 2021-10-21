@@ -4,7 +4,8 @@
   "package": "org.siscode.illiteracymod.mixin",
   "compatibilityLevel": "JAVA_16",
   "mixins": [
-    "AnvilBlock_nobreakMixin"
+    "AnvilBlock_nobreakMixin",
+    "AnvilScreenHandler_freeRepairMixin"
   ],
   "client": [
   ],
