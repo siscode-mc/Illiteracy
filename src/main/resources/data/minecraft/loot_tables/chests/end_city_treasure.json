@@ -220,6 +220,38 @@
         },
         {
           "type": "minecraft:item",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "illiteracy:enchant_with_levels_biased",
+              "levels": {
+                "type": "minecraft:uniform",
+                "min": 20.0,
+                "max": 39.0
+              },
+              "mending_bias": 0.5
+            }
+          ],
+          "name": "minecraft:diamond_axe"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "illiteracy:enchant_with_levels_biased",
+              "levels": {
+                "type": "minecraft:uniform",
+                "min": 20.0,
+                "max": 39.0
+              },
+              "mending_bias": 0.5
+            }
+          ],
+          "name": "minecraft:diamond_hoe"
+        },
+        {
+          "type": "minecraft:item",
           "weight": 3,
           "functions": [
             {
@@ -329,6 +361,38 @@
             }
           ],
           "name": "minecraft:iron_shovel"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "illiteracy:enchant_with_levels_biased",
+              "levels": {
+                "type": "minecraft:uniform",
+                "min": 20.0,
+                "max": 39.0
+              },
+              "mending_bias": 0.5
+            }
+          ],
+          "name": "minecraft:iron_axe"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "illiteracy:enchant_with_levels_biased",
+              "levels": {
+                "type": "minecraft:uniform",
+                "min": 20.0,
+                "max": 39.0
+              },
+              "mending_bias": 0.5
+            }
+          ],
+          "name": "minecraft:iron_hoe"
         }
       ]
     }
